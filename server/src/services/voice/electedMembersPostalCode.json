@@ -1,0 +1,593 @@
+{
+  "province": "ON",
+  "code": "N2L3W9",
+  "centroid": { "type": "Point", "coordinates": [-80.539033, 43.476494] },
+  "boundaries_concordance": [],
+  "city": "Waterloo",
+  "boundaries_centroid": [
+    {
+      "url": "/boundaries/federal-electoral-districts/35112/",
+      "name": "Waterloo",
+      "external_id": "35112",
+      "boundary_set_name": "Federal electoral district",
+      "related": {
+        "boundary_set_url": "/boundary-sets/federal-electoral-districts/"
+      }
+    },
+    {
+      "url": "/boundaries/waterloo-wards/ward-6/",
+      "name": "Ward 6",
+      "external_id": "6",
+      "boundary_set_name": "Waterloo ward",
+      "related": { "boundary_set_url": "/boundary-sets/waterloo-wards/" }
+    },
+    {
+      "url": "/boundaries/ontario-electoral-districts-representation-act-2015/waterloo/",
+      "name": "Waterloo",
+      "external_id": "114",
+      "boundary_set_name": "Ontario electoral district",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-electoral-districts-representation-act-2015/"
+      }
+    },
+    {
+      "url": "/boundaries/ontario-electoral-districts-representation-act-2005/kitchener-waterloo/",
+      "name": "Kitchener\u2014Waterloo",
+      "external_id": "39",
+      "boundary_set_name": "Ontario electoral district",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-electoral-districts-representation-act-2005/"
+      }
+    },
+    {
+      "url": "/boundaries/ontario-french-public-school-board-boundaries/conseil-scolaire-viamonde/",
+      "name": "Conseil scolaire Viamonde",
+      "external_id": "58",
+      "boundary_set_name": "Ontario French Public School Board boundary",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-french-public-school-board-boundaries/"
+      }
+    },
+    {
+      "url": "/boundaries/ontario-english-catholic-school-board-boundaries/waterloo-catholic-dsb/",
+      "name": "Waterloo Catholic DSB",
+      "external_id": "49",
+      "boundary_set_name": "Ontario English Catholic School Board boundary",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-english-catholic-school-board-boundaries/"
+      }
+    },
+    {
+      "url": "/boundaries/ontario-french-catholic-school-board-boundaries/cs-catholique-monavenir/",
+      "name": "CS catholique MonAvenir",
+      "external_id": "64",
+      "boundary_set_name": "Ontario French Catholic School Board boundary",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-french-catholic-school-board-boundaries/"
+      }
+    },
+    {
+      "url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/",
+      "name": "Waterloo Region DSB",
+      "external_id": "24",
+      "boundary_set_name": "Ontario English Public School Board boundary",
+      "related": {
+        "boundary_set_url": "/boundary-sets/ontario-english-public-school-board-boundaries/"
+      }
+    },
+    {
+      "url": "/boundaries/federal-electoral-districts-2003-representation-order/35039/",
+      "name": "Kitchener\u2014Waterloo",
+      "external_id": "35039",
+      "boundary_set_name": "Federal electoral district",
+      "related": {
+        "boundary_set_url": "/boundary-sets/federal-electoral-districts-2003-representation-order/"
+      }
+    },
+    {
+      "url": "/boundaries/census-divisions/3530/",
+      "name": "Waterloo",
+      "external_id": "3530",
+      "boundary_set_name": "Census division",
+      "related": { "boundary_set_url": "/boundary-sets/census-divisions/" }
+    },
+    {
+      "url": "/boundaries/census-subdivisions/3530016/",
+      "name": "Waterloo",
+      "external_id": "3530016",
+      "boundary_set_name": "Census subdivision",
+      "related": { "boundary_set_url": "/boundary-sets/census-subdivisions/" }
+    }
+  ],
+  "representatives_centroid": [
+    {
+      "elected_office": "Chair",
+      "last_name": "Herring",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 240-3613" }],
+      "url": "",
+      "email": "jayne_herring@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Jayne Herring",
+      "first_name": "Jayne",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Meissner",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 591-2825" }],
+      "url": "",
+      "email": "karen_meissner@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Karen Meissner",
+      "first_name": "Karen",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Whetham",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 226 755-1616" }],
+      "url": "",
+      "email": "crystal_whetham@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Crystal Whetham",
+      "first_name": "Crystal",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Millar",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 635-9257" }],
+      "url": "",
+      "email": "Carol_Millar@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Carol Millar",
+      "first_name": "Carol",
+      "gender": ""
+    },
+    {
+      "elected_office": "Chair",
+      "last_name": "Weston",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 226 752-7781" }],
+      "url": "",
+      "email": "joanne_weston@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Joanne Weston",
+      "first_name": "Joanne",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Watson",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 503-0927" }],
+      "url": "",
+      "email": "Cindy_Watson@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Cindy Watson",
+      "first_name": "Cindy",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Piatkowski",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 577-2554" }],
+      "url": "",
+      "email": "scott_piatkowski@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Scott Piatkowski",
+      "first_name": "Scott",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Woodcock",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 226 929-3101" }],
+      "url": "",
+      "email": "Kathleen_Woodcock@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Kathleen Woodcock",
+      "first_name": "Kathleen",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Smith",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 502-8656" }],
+      "url": "",
+      "email": "kathi_smith@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Kathi Smith",
+      "first_name": "Kathi",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Ramsay",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 519 502-8449" }],
+      "url": "",
+      "email": "mike_ramsay@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Mike Ramsay",
+      "first_name": "Mike",
+      "gender": ""
+    },
+    {
+      "elected_office": "Trustee",
+      "last_name": "Waddell",
+      "related": {
+        "representative_set_url": "/representative-sets/on-english-plublic-school-boards/",
+        "boundary_url": "/boundaries/ontario-english-public-school-board-boundaries/waterloo-region-dsb/"
+      },
+      "representative_set_name": "Ontario English Public School Boards",
+      "extra": {},
+      "offices": [{ "type": "legislature", "tel": "1 226 646-1028" }],
+      "url": "",
+      "email": "natalie_waddell@wrdsb.ca",
+      "district_name": "Waterloo Region DSB",
+      "party_name": "",
+      "source_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbnQN0j_2Ky56MeRQsNTYXnt9Q6f_vFgH_KyAZ3O96QhjLqMK_Fzrjz2lI8ympE1FU0lkKgbGEvjW0/pub?gid=785048945&single=true&output=csv",
+      "personal_url": "https://www.wrdsb.ca/",
+      "photo_url": "",
+      "name": "Natalie Waddell",
+      "first_name": "Natalie",
+      "gender": ""
+    },
+    {
+      "elected_office": "MP",
+      "last_name": "Chagger",
+      "related": {
+        "representative_set_url": "/representative-sets/canada-rural-municipal-councils/",
+        "boundary_url": "/boundaries/census-subdivisions/3530016/"
+      },
+      "representative_set_name": "Canada rural municipal councils",
+      "extra": { "preferred_languages": ["English"] },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 613 996-5928",
+          "postal": "House of Commons\nOttawa ON  K1A 0A6",
+          "fax": "1 613 996-5928"
+        },
+        {
+          "type": "constituency",
+          "tel": "1 519 746-1573",
+          "postal": "Main office - Waterloo\n100 Regina Street South\nSuite 360\nWaterloo ON  N2J 4P9",
+          "fax": "1 519 746-6436"
+        }
+      ],
+      "url": "https://www.ourcommons.ca/Members/en/bardish-chagger(89000)",
+      "email": "bardish.chagger@parl.gc.ca",
+      "district_name": "Waterloo",
+      "party_name": "Liberal",
+      "source_url": "https://www.ourcommons.ca/Members/en/search?caucusId=all&province=all",
+      "personal_url": "",
+      "photo_url": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ChaggerBardish_Lib.jpg",
+      "name": "Bardish Chagger",
+      "first_name": "Bardish",
+      "gender": "F"
+    },
+    {
+      "elected_office": "Mayor",
+      "last_name": "Jaworsky",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-city-council/",
+        "boundary_url": "/boundaries/census-subdivisions/3530016/"
+      },
+      "representative_set_name": "Waterloo City Council",
+      "extra": { "twitter": "https://twitter.com/DaveJaworsky" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 747-8784",
+          "fax": "1 519 747-8500"
+        }
+      ],
+      "url": "http://www.waterloo.ca/en/government/mayor-dave-jaworsky.asp",
+      "email": "dave.jaworsky@waterloo.ca",
+      "district_name": "Waterloo",
+      "party_name": "",
+      "source_url": "http://opendata-city-of-waterloo.opendata.arcgis.com/datasets/594698f0bbcd4c20b72977194d2b97b8_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.waterloo.ca/en/contentresources/resources/government/Mayor_Jaworsky_2015-18.jpg",
+      "name": "Dave Jaworsky",
+      "first_name": "Dave",
+      "gender": ""
+    },
+    {
+      "elected_office": "Councillor",
+      "last_name": "Henry",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-city-council/",
+        "boundary_url": "/boundaries/waterloo-wards/ward-6/"
+      },
+      "representative_set_name": "Waterloo City Council",
+      "extra": { "twitter": "https://twitter.com/jeffhenrykw" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 747-8784",
+          "fax": "1 519 747-8500"
+        }
+      ],
+      "url": "http://www.waterloo.ca/en/government/counjeffhenry.asp",
+      "email": "jeff.henry@waterloo.ca",
+      "district_name": "Ward 6",
+      "party_name": "",
+      "source_url": "http://opendata-city-of-waterloo.opendata.arcgis.com/datasets/594698f0bbcd4c20b72977194d2b97b8_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.waterloo.ca/en/contentresources/resources/government/Coun_Henry_2015-18.jpg",
+      "name": "Jeff Henry",
+      "first_name": "Jeff",
+      "gender": ""
+    },
+    {
+      "elected_office": "Chair",
+      "last_name": "Seiling",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-regional-council/",
+        "boundary_url": "/boundaries/census-divisions/3530/"
+      },
+      "representative_set_name": "Waterloo Regional Council",
+      "extra": { "twitter": "https://twitter.com/KenSeiling" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 575-4585",
+          "postal": "1st Floor\n150 Frederick Street\nKitchener ON  N2G 4J3",
+          "fax": "1 519 575-4440"
+        }
+      ],
+      "url": "",
+      "email": "kseiling@regionofwaterloo.ca",
+      "district_name": "Waterloo",
+      "party_name": "",
+      "source_url": "https://opendata.arcgis.com/datasets/a6f9364a68644b628ae7faa3b931b1b6_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.regionofwaterloo.ca/en/regionalGovernment/regionalchairandsupportstaff.asp",
+      "name": "Ken Seiling",
+      "first_name": "Ken",
+      "gender": "M"
+    },
+    {
+      "elected_office": "Regional Councillor",
+      "last_name": "Strickland",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-regional-council/",
+        "boundary_url": "/boundaries/census-divisions/3530/"
+      },
+      "representative_set_name": "Waterloo Regional Council",
+      "extra": { "twitter": "https://twitter.com/SeanSstrickland" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 575-4404 x3414",
+          "postal": "1st Floor\n150 Frederick Street\nKitchener ON  N2G 4J3",
+          "fax": "1 519 575-4048"
+        }
+      ],
+      "url": "",
+      "email": "sstrickland@regionofwaterloo.ca",
+      "district_name": "Waterloo",
+      "party_name": "",
+      "source_url": "https://opendata.arcgis.com/datasets/a6f9364a68644b628ae7faa3b931b1b6_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.regionofwaterloo.ca/en/regionalGovernment/seanstrickland.asp",
+      "name": "Sean Strickland",
+      "first_name": "Sean",
+      "gender": "M"
+    },
+    {
+      "elected_office": "Regional Councillor",
+      "last_name": "Mitchell",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-regional-council/",
+        "boundary_url": "/boundaries/census-divisions/3530/"
+      },
+      "representative_set_name": "Waterloo Regional Council",
+      "extra": { "twitter": "https://twitter.com/janemitchell" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 575-4404 x3411",
+          "postal": "1st Floor\n150 Frederick Street\nKitchener ON  N2G 4J3",
+          "fax": "1 519 575-4048"
+        }
+      ],
+      "url": "",
+      "email": "jmitchell@regionofwaterloo.ca",
+      "district_name": "Waterloo",
+      "party_name": "",
+      "source_url": "https://opendata.arcgis.com/datasets/a6f9364a68644b628ae7faa3b931b1b6_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.regionofwaterloo.ca/en/regionalGovernment/janemitchell.asp",
+      "name": "Jane Mitchell",
+      "first_name": "Jane",
+      "gender": "F"
+    },
+    {
+      "elected_office": "Regional Councillor",
+      "last_name": "Jaworsky",
+      "related": {
+        "representative_set_url": "/representative-sets/waterloo-regional-council/",
+        "boundary_url": "/boundaries/census-divisions/3530/"
+      },
+      "representative_set_name": "Waterloo Regional Council",
+      "extra": { "twitter": "https://twitter.com/DaveJaworsky" },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 519 575-4404 x3400",
+          "postal": "1st Floor\n150 Frederick Street\nKitchener ON  N2G 4J3",
+          "fax": "1 519 575-4048"
+        }
+      ],
+      "url": "",
+      "email": "djaworsky@regionofwaterloo.ca",
+      "district_name": "Waterloo",
+      "party_name": "",
+      "source_url": "https://opendata.arcgis.com/datasets/a6f9364a68644b628ae7faa3b931b1b6_0.csv",
+      "personal_url": "",
+      "photo_url": "http://www.regionofwaterloo.ca/en/regionalGovernment/davejaworsky.asp",
+      "name": "Dave Jaworsky",
+      "first_name": "Dave",
+      "gender": "M"
+    },
+    {
+      "elected_office": "MPP",
+      "last_name": "Fife",
+      "related": {
+        "representative_set_url": "/representative-sets/ontario-legislature/",
+        "boundary_url": "/boundaries/ontario-electoral-districts-representation-act-2015/waterloo/"
+      },
+      "representative_set_name": "Legislative Assembly of Ontario",
+      "extra": {},
+      "offices": [
+        { "type": "legislature", "fax": "1 519 725-3667" },
+        { "type": "constituency", "tel": "1 519 725-3477" }
+      ],
+      "url": "https://www.ola.org/en/members/all/catherine-fife",
+      "email": "CFife-QP@ndp.on.ca",
+      "district_name": "Waterloo",
+      "party_name": "New Democratic Party of Ontario",
+      "source_url": "https://www.ola.org/en/members/current/contact-information",
+      "personal_url": "",
+      "photo_url": "https://www.ola.org/sites/default/files/member/profile-photo/catherine_fife_0.jpg",
+      "name": "Catherine Fife",
+      "first_name": "Catherine",
+      "gender": ""
+    },
+    {
+      "elected_office": "MP",
+      "last_name": "Chagger",
+      "related": {
+        "representative_set_url": "/representative-sets/house-of-commons/",
+        "boundary_url": "/boundaries/federal-electoral-districts/35112/"
+      },
+      "representative_set_name": "House of Commons",
+      "extra": { "preferred_languages": ["English"] },
+      "offices": [
+        {
+          "type": "legislature",
+          "tel": "1 613 996-5928",
+          "postal": "House of Commons\nOttawa ON  K1A 0A6",
+          "fax": "1 613 996-5928"
+        },
+        {
+          "type": "constituency",
+          "tel": "1 519 746-1573",
+          "postal": "Main office - Waterloo\n100 Regina Street South\nSuite 360\nWaterloo ON  N2J 4P9",
+          "fax": "1 519 746-6436"
+        }
+      ],
+      "url": "https://www.ourcommons.ca/Members/en/bardish-chagger(89000)",
+      "email": "bardish.chagger@parl.gc.ca",
+      "district_name": "Waterloo",
+      "party_name": "Liberal",
+      "source_url": "https://www.ourcommons.ca/Members/en/search?caucusId=all&province=all",
+      "personal_url": "",
+      "photo_url": "https://www.ourcommons.ca/Content/Parliamentarians/Images/OfficialMPPhotos/44/ChaggerBardish_Lib.jpg",
+      "name": "Bardish Chagger",
+      "first_name": "Bardish",
+      "gender": "F"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "mysql"
+  url               = "mysql://ctiscare:MSci342@ec2-18-216-101-119.us-east-2.compute.amazonaws.com:3306/ctiscare"
+}
+
+model events {
+  event_id        Int        @id @default(autoincrement())
+  title           String?    @db.VarChar(255)
+  date_start      DateTime?  @db.Timestamp(0)
+  date_end        DateTime?  @db.Timestamp(0)
+  description     String?    @db.VarChar(1000)
+  location        String?    @db.VarChar(255)
+  centre_lat      Float?
+  centre_long     Float?
+  invite_criteria String?    @db.VarChar(255)
+  status          String?    @db.VarChar(255)
+  neighborhood_id Int?
+  host_user_id    Int?
+  comments        comments[]
+}
+
+model feed_comments {
+  comment_id Int     @id @default(autoincrement())
+  feed_id    Int?
+  user_id    Int?
+  created_on String? @db.Text
+  content    String? @db.Text
+  status     String? @db.Text
+}
+
+model feed_posts {
+  feed_id         Int            @id @default(autoincrement())
+  user_id         Int?
+  event_id        Int?
+  created_on      String?        @db.Text
+  status          String?        @db.Text
+  content         String?        @db.Text
+  neighborhood_id Int?
+  parent_feed_id  Int?
+  comments        comments[]
+  meta_analysis   meta_analysis?
+}
+
+model neighborhoods {
+  neighborhood_id Int       @id @default(autoincrement())
+  name            String?   @db.VarChar(255)
+  centre_lat      Float?
+  centre_long     Float?
+  created_on      DateTime? @db.Timestamp(0)
+}
+
+model notices {
+  notice_id       Int      @id @default(autoincrement())
+  title           String   @db.VarChar(255)
+  type            String   @db.VarChar(50)
+  date_start      DateTime @db.Timestamp(0)
+  date_end        DateTime @db.Timestamp(0)
+  description     String?  @db.Text
+  icon            String?  @db.Text
+  location        String?  @db.VarChar(255)
+  centre_lat      Float?
+  centre_long     Float?
+  status          String?  @db.Text
+  neighborhood_id Int?
+  host_user_id    Int?
+}
+
+model users {
+  user_id              Int        @id @default(autoincrement())
+  email                String     @db.Text
+  password_hash        String?    @db.Text
+  created_on           String     @db.Text
+  status               String     @db.VarChar(455)
+  first_name           String     @db.Text
+  last_name            String     @db.Text
+  postal_code          String?    @db.Text
+  profile_picture_link String?    @db.Text
+  neighborhood_id      Int?
+  user_type            String?    @db.Text
+  comments             comments[]
+  voices               voice[]
+}
+
+model voice {
+  voice_id       Int             @id @default(autoincrement())
+  user_id        Int
+  question       String?         @db.Text
+  description    String?         @db.Text
+  is_mc          Boolean?
+  is_shortanswer Boolean?
+  is_datetime    Boolean?
+  duration_days  Int?
+  created_on     DateTime?       @db.Date
+  end_date       DateTime?       @db.Date
+  status         String?         @db.Text
+  comments       comments[]
+  meta_analysis  meta_analysis?
+  user           users           @relation(fields: [user_id], references: [user_id])
+  voice_mc       voice_mc[]
+  voice_results  voice_results[]
+  @@index([user_id], map: "voice_user_id_fkey")
+}
+
+model voice_mc {
+  voice_mc_option_id Int     @id @default(autoincrement())
+  voice_id           Int
+  title              String? @db.Text
+  voice              voice   @relation(fields: [voice_id], references: [voice_id])
+
+  @@index([voice_id], map: "voice_mc_voice_id_fkey")
+}
+
+model voice_results {
+  voice_results_id Int       @id @default(autoincrement())
+  user_id          Int?
+  created_on       DateTime? @db.Date
+  answer           String?   @db.Text
+  voice_id         Int
+  voice            voice     @relation(fields: [voice_id], references: [voice_id])
+
+  @@index([voice_id], map: "voice_results_voice_id_fkey")
+}
+
+model comments {
+  comment_id Int         @id @default(autoincrement())
+  feed_id    Int?
+  voice_id   Int?
+  event_id   Int?
+  user_id    Int
+  created_on DateTime?   @db.Date
+  content    String?     @db.Text
+  status     String?     @db.Text
+  event      events?     @relation(fields: [event_id], references: [event_id])
+  feed       feed_posts? @relation(fields: [feed_id], references: [feed_id])
+  user       users       @relation(fields: [user_id], references: [user_id])
+  voice      voice?      @relation(fields: [voice_id], references: [voice_id])
+
+  @@index([event_id], map: "comments_event_id_fkey")
+  @@index([feed_id], map: "comments_feed_id_fkey")
+  @@index([user_id], map: "comments_user_id_fkey")
+  @@index([voice_id], map: "comments_voice_id_fkey")
+}
+
+model meta_analysis {
+  meta_analysis_id Int         @id @default(autoincrement())
+  voice_id         Int?        @unique
+  feed_id          Int?        @unique
+  category         String?
+  sentimentScore   Float?
+  feed             feed_posts? @relation(fields: [feed_id], references: [feed_id])
+  voice            voice?      @relation(fields: [voice_id], references: [voice_id])
+}
